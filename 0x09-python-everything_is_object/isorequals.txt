@@ -1,0 +1,30 @@
+>>> s1 = "Best School"
+>>> s2 = "Best School"
+>>> print(s1 == s2)
+
+The reason why print(l1 is l2) returns False is because l1 and l2 are two different list objects, even though they have the same contents. 
+The is operator checks if two variables point to the same object in memory, while == checks if they have the same value.
+When you create a list like l1 = [1, 2, 3], Python creates a new list object in memory and assigns it to the variable l1. 
+Similarly, when you create a list like l2 = [1, 2, 3], Python creates another new list object in memory and assigns it to the variable l2.
+Therefore, l1 is l2 returns False because l1 and l2 point to different list objects in memory, even though they have the same contents.
+
+
+>>> l1 = [1, 2, 3]
+>>> l2 = [1, 2, 3] 
+>>> print(l1 == l2)
+
+In this case, print(s1 is s2) might return True or False, depending on the implementation of the Python interpreter and the specific strings being compared.
+When you create a string like s1 = "Best School", Python creates a new string object in memory and assigns it to the variable s1. 
+Similarly, when you create a string like s2 = "Best School", Python creates another new string object in memory and assigns it to the variable s2.
+However, for optimization purposes, Python may choose to reuse string objects if they have the same contents. This is known as string interning. 
+In some implementations of Python, string interning is performed automatically for small strings, and for string literals that appear multiple times in a program.
+Therefore, depending on the implementation and the specific strings being compared, s1 is s2 may return True if the same string object is being reused, or it may 
+return False if two separate string objects are being created.
+In general, when comparing string objects for equality, it's recommended to use the == operator instead of is. 
+The == operator checks if two strings have the same value, while is checks if they are the same object in memory.
+
+
+
+
+
+
