@@ -1,1 +1,5 @@
 [1, 2, 3, 4]
+
+Initially, the list l1 is created with the values [1, 2, 3]. Then, the variable l2 is assigned to reference the same list object as l1, so l2 points to [1, 2, 3] 
+as well. When the append() method is called on l1 with the argument 4, the list object [1, 2, 3] is modified in place to become [1, 2, 3, 4]. 
+Since both l1 and l2 reference the same list object, the value of l2 when printed also reflects this change, and the output is [1, 2, 3, 4].
