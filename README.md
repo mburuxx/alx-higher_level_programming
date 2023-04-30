@@ -18,3 +18,10 @@ The following folders are projects done during the studies:
 * [0x0A-python-inheritance](0x0A-python-inheritance)
 * [0x0B-python-input_output](0x0B-python-input_output)
 * [0x0C-python-almost_a_circle](0x0C-python-almost_a_circle)
+
+
+## Author :black_nib:
+* <b>John Mburu (X)</b>
+
+# Acknowledgements :pray:
+These works are part of the ALX SE curriculum. ALX is a program that prepares young people with the technical and work-ready skills for a global career as a Full-Stack Developer using project-based peer learning. For more information, follow this <a href="https://www.alxafrica.com/software-engineering-2022/"> link</a>.
