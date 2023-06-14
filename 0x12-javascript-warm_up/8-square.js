@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-const x = parseInt(process.argv[2]);
-let out = '';
+const x = parseInt(process.argv[2])
+
 if (Number.isInteger(x)) {
   for (let i = 0; i < x; i++) {
     for (let j = 0; j < x; j++) {
