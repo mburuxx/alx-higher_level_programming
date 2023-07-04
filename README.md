@@ -22,6 +22,7 @@ The following folders are projects done during the studies:
 * [0x0C-python-almost_a_circle](0x0C-python-almost_a_circle)
 * [0x0D-SQL_introduction](0x0D-SQL_introduction)
 * [0x0E-SQL_more_queries](0x0E-SQL_more_queries)
+* [0x0F-python-object_relational_mapping](0x0F-python-object_relational_mapping)
 
 
 ## Author :black_nib:
