@@ -1,10 +1,1 @@
-[1, 2, 3]
-
-l1 = [1, 2, 3]
-l2 = l1
-l1 = l1 + [4]
-print(l2)
-
-Initially, the list l1 is created with the values [1, 2, 3]. Then, the variable l2 is assigned to reference the same list object as l1, so l2 points to [1, 2, 3] 
-as well. When the + operator is used to concatenate l1 and [4] to create a new list [1, 2, 3, 4], a new list object is created in memory that l1 is now referencing. 
-This new list is distinct from the original list [1, 2, 3]. Since l2 still references the original list object, the value of l2 when printed remains as [1, 2, 3].
+[1, 2, 3, 4]
